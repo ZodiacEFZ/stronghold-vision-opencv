@@ -1,0 +1,630 @@
+<grip:Pipeline>
+  <sources>
+    <grip:ImageFile>
+      <property name="path" value="D:\Eclipse\FRC\RealFullField\0.jpg"/>
+    </grip:ImageFile>
+    <grip:MultiImageFile>
+      <property name="path[108]" value="D:\Eclipse\FRC\RealFullField\223.jpg"/>
+      <property name="path[363]" value="D:\Eclipse\FRC\RealFullField\516.jpg"/>
+      <property name="path[295]" value="D:\Eclipse\FRC\RealFullField\438.jpg"/>
+      <property name="path[191]" value="D:\Eclipse\FRC\RealFullField\312.jpg"/>
+      <property name="path[359]" value="D:\Eclipse\FRC\RealFullField\512.jpg"/>
+      <property name="path[323]" value="D:\Eclipse\FRC\RealFullField\476.jpg"/>
+      <property name="path[73]" value="D:\Eclipse\FRC\RealFullField\188.jpg"/>
+      <property name="path[255]" value="D:\Eclipse\FRC\RealFullField\376.jpg"/>
+      <property name="path[187]" value="D:\Eclipse\FRC\RealFullField\308.jpg"/>
+      <property name="path[151]" value="D:\Eclipse\FRC\RealFullField\268.jpg"/>
+      <property name="path[319]" value="D:\Eclipse\FRC\RealFullField\472.jpg"/>
+      <property name="path[69]" value="D:\Eclipse\FRC\RealFullField\184.jpg"/>
+      <property name="path[33]" value="D:\Eclipse\FRC\RealFullField\58.jpg"/>
+      <property name="path[215]" value="D:\Eclipse\FRC\RealFullField\336.jpg"/>
+      <property name="path[147]" value="D:\Eclipse\FRC\RealFullField\264.jpg"/>
+      <property name="path[111]" value="D:\Eclipse\FRC\RealFullField\226.jpg"/>
+      <property name="path[29]" value="D:\Eclipse\FRC\RealFullField\32.jpg"/>
+      <property name="path[107]" value="D:\Eclipse\FRC\RealFullField\222.jpg"/>
+      <property name="path[362]" value="D:\Eclipse\FRC\RealFullField\515.jpg"/>
+      <property name="path[294]" value="D:\Eclipse\FRC\RealFullField\437.jpg"/>
+      <property name="path[190]" value="D:\Eclipse\FRC\RealFullField\311.jpg"/>
+      <property name="path[358]" value="D:\Eclipse\FRC\RealFullField\511.jpg"/>
+      <property name="path[322]" value="D:\Eclipse\FRC\RealFullField\475.jpg"/>
+      <property name="path[72]" value="D:\Eclipse\FRC\RealFullField\187.jpg"/>
+      <property name="path[254]" value="D:\Eclipse\FRC\RealFullField\375.jpg"/>
+      <property name="path[186]" value="D:\Eclipse\FRC\RealFullField\307.jpg"/>
+      <property name="path[150]" value="D:\Eclipse\FRC\RealFullField\267.jpg"/>
+      <property name="path[318]" value="D:\Eclipse\FRC\RealFullField\471.jpg"/>
+      <property name="path[68]" value="D:\Eclipse\FRC\RealFullField\183.jpg"/>
+      <property name="path[32]" value="D:\Eclipse\FRC\RealFullField\56.jpg"/>
+      <property name="path[214]" value="D:\Eclipse\FRC\RealFullField\335.jpg"/>
+      <property name="path[146]" value="D:\Eclipse\FRC\RealFullField\263.jpg"/>
+      <property name="path[110]" value="D:\Eclipse\FRC\RealFullField\225.jpg"/>
+      <property name="path[28]" value="D:\Eclipse\FRC\RealFullField\31.jpg"/>
+      <property name="path[106]" value="D:\Eclipse\FRC\RealFullField\221.jpg"/>
+      <property name="path[361]" value="D:\Eclipse\FRC\RealFullField\514.jpg"/>
+      <property name="path[293]" value="D:\Eclipse\FRC\RealFullField\436.jpg"/>
+      <property name="path[357]" value="D:\Eclipse\FRC\RealFullField\510.jpg"/>
+      <property name="path[321]" value="D:\Eclipse\FRC\RealFullField\474.jpg"/>
+      <property name="path[289]" value="D:\Eclipse\FRC\RealFullField\432.jpg"/>
+      <property name="path[71]" value="D:\Eclipse\FRC\RealFullField\186.jpg"/>
+      <property name="path[9]" value="D:\Eclipse\FRC\RealFullField\12.jpg"/>
+      <property name="path[253]" value="D:\Eclipse\FRC\RealFullField\374.jpg"/>
+      <property name="path[185]" value="D:\Eclipse\FRC\RealFullField\306.jpg"/>
+      <property name="path[317]" value="D:\Eclipse\FRC\RealFullField\470.jpg"/>
+      <property name="path[67]" value="D:\Eclipse\FRC\RealFullField\182.jpg"/>
+      <property name="path[249]" value="D:\Eclipse\FRC\RealFullField\370.jpg"/>
+      <property name="path[31]" value="D:\Eclipse\FRC\RealFullField\55.jpg"/>
+      <property name="path[213]" value="D:\Eclipse\FRC\RealFullField\334.jpg"/>
+      <property name="path[145]" value="D:\Eclipse\FRC\RealFullField\262.jpg"/>
+      <property name="path[27]" value="D:\Eclipse\FRC\RealFullField\30.jpg"/>
+      <property name="path[209]" value="D:\Eclipse\FRC\RealFullField\330.jpg"/>
+      <property name="path[105]" value="D:\Eclipse\FRC\RealFullField\220.jpg"/>
+      <property name="path[360]" value="D:\Eclipse\FRC\RealFullField\513.jpg"/>
+      <property name="path[292]" value="D:\Eclipse\FRC\RealFullField\435.jpg"/>
+      <property name="path[356]" value="D:\Eclipse\FRC\RealFullField\509.jpg"/>
+      <property name="path[320]" value="D:\Eclipse\FRC\RealFullField\473.jpg"/>
+      <property name="path[288]" value="D:\Eclipse\FRC\RealFullField\431.jpg"/>
+      <property name="path[70]" value="D:\Eclipse\FRC\RealFullField\185.jpg"/>
+      <property name="path[8]" value="D:\Eclipse\FRC\RealFullField\11.jpg"/>
+      <property name="path[252]" value="D:\Eclipse\FRC\RealFullField\373.jpg"/>
+      <property name="path[184]" value="D:\Eclipse\FRC\RealFullField\305.jpg"/>
+      <property name="path[316]" value="D:\Eclipse\FRC\RealFullField\469.jpg"/>
+      <property name="path[66]" value="D:\Eclipse\FRC\RealFullField\181.jpg"/>
+      <property name="path[248]" value="D:\Eclipse\FRC\RealFullField\369.jpg"/>
+      <property name="path[30]" value="D:\Eclipse\FRC\RealFullField\33.jpg"/>
+      <property name="path[212]" value="D:\Eclipse\FRC\RealFullField\333.jpg"/>
+      <property name="path[144]" value="D:\Eclipse\FRC\RealFullField\261.jpg"/>
+      <property name="path[26]" value="D:\Eclipse\FRC\RealFullField\29.jpg"/>
+      <property name="path[208]" value="D:\Eclipse\FRC\RealFullField\329.jpg"/>
+      <property name="path[104]" value="D:\Eclipse\FRC\RealFullField\219.jpg"/>
+      <property name="path[291]" value="D:\Eclipse\FRC\RealFullField\434.jpg"/>
+      <property name="numImages" value="390"/>
+      <property name="path[355]" value="D:\Eclipse\FRC\RealFullField\508.jpg"/>
+      <property name="path[287]" value="D:\Eclipse\FRC\RealFullField\430.jpg"/>
+      <property name="path[7]" value="D:\Eclipse\FRC\RealFullField\9.jpg"/>
+      <property name="path[251]" value="D:\Eclipse\FRC\RealFullField\372.jpg"/>
+      <property name="path[183]" value="D:\Eclipse\FRC\RealFullField\304.jpg"/>
+      <property name="path[315]" value="D:\Eclipse\FRC\RealFullField\468.jpg"/>
+      <property name="path[65]" value="D:\Eclipse\FRC\RealFullField\92.jpg"/>
+      <property name="path[247]" value="D:\Eclipse\FRC\RealFullField\368.jpg"/>
+      <property name="path[179]" value="D:\Eclipse\FRC\RealFullField\300.jpg"/>
+      <property name="path[211]" value="D:\Eclipse\FRC\RealFullField\332.jpg"/>
+      <property name="path[143]" value="D:\Eclipse\FRC\RealFullField\260.jpg"/>
+      <property name="path[25]" value="D:\Eclipse\FRC\RealFullField\28.jpg"/>
+      <property name="path[207]" value="D:\Eclipse\FRC\RealFullField\328.jpg"/>
+      <property name="path[139]" value="D:\Eclipse\FRC\RealFullField\255.jpg"/>
+      <property name="path[103]" value="D:\Eclipse\FRC\RealFullField\218.jpg"/>
+      <property name="path[290]" value="D:\Eclipse\FRC\RealFullField\433.jpg"/>
+      <property name="path[354]" value="D:\Eclipse\FRC\RealFullField\507.jpg"/>
+      <property name="path[286]" value="D:\Eclipse\FRC\RealFullField\429.jpg"/>
+      <property name="path[6]" value="D:\Eclipse\FRC\RealFullField\8.jpg"/>
+      <property name="path[250]" value="D:\Eclipse\FRC\RealFullField\371.jpg"/>
+      <property name="path[182]" value="D:\Eclipse\FRC\RealFullField\303.jpg"/>
+      <property name="path[314]" value="D:\Eclipse\FRC\RealFullField\467.jpg"/>
+      <property name="path[64]" value="D:\Eclipse\FRC\RealFullField\91.jpg"/>
+      <property name="path[246]" value="D:\Eclipse\FRC\RealFullField\367.jpg"/>
+      <property name="path[210]" value="D:\Eclipse\FRC\RealFullField\331.jpg"/>
+      <property name="path[178]" value="D:\Eclipse\FRC\RealFullField\299.jpg"/>
+      <property name="path[142]" value="D:\Eclipse\FRC\RealFullField\259.jpg"/>
+      <property name="path[24]" value="D:\Eclipse\FRC\RealFullField\27.jpg"/>
+      <property name="path[206]" value="D:\Eclipse\FRC\RealFullField\327.jpg"/>
+      <property name="path[138]" value="D:\Eclipse\FRC\RealFullField\254.jpg"/>
+      <property name="path[102]" value="D:\Eclipse\FRC\RealFullField\217.jpg"/>
+      <property name="path[389]" value="D:\Eclipse\FRC\RealFullField\542.jpg"/>
+      <property name="path[353]" value="D:\Eclipse\FRC\RealFullField\506.jpg"/>
+      <property name="path[285]" value="D:\Eclipse\FRC\RealFullField\428.jpg"/>
+      <property name="path[5]" value="D:\Eclipse\FRC\RealFullField\7.jpg"/>
+      <property name="path[181]" value="D:\Eclipse\FRC\RealFullField\302.jpg"/>
+      <property name="path[349]" value="D:\Eclipse\FRC\RealFullField\502.jpg"/>
+      <property name="path[99]" value="D:\Eclipse\FRC\RealFullField\214.jpg"/>
+      <property name="path[313]" value="D:\Eclipse\FRC\RealFullField\466.jpg"/>
+      <property name="path[63]" value="D:\Eclipse\FRC\RealFullField\90.jpg"/>
+      <property name="path[245]" value="D:\Eclipse\FRC\RealFullField\366.jpg"/>
+      <property name="path[177]" value="D:\Eclipse\FRC\RealFullField\298.jpg"/>
+      <property name="path[141]" value="D:\Eclipse\FRC\RealFullField\258.jpg"/>
+      <property name="path[309]" value="D:\Eclipse\FRC\RealFullField\452.jpg"/>
+      <property name="path[59]" value="D:\Eclipse\FRC\RealFullField\86.jpg"/>
+      <property name="path[23]" value="D:\Eclipse\FRC\RealFullField\26.jpg"/>
+      <property name="path[205]" value="D:\Eclipse\FRC\RealFullField\326.jpg"/>
+      <property name="path[137]" value="D:\Eclipse\FRC\RealFullField\253.jpg"/>
+      <property name="path[101]" value="D:\Eclipse\FRC\RealFullField\216.jpg"/>
+      <property name="path[19]" value="D:\Eclipse\FRC\RealFullField\22.jpg"/>
+      <property name="path[388]" value="D:\Eclipse\FRC\RealFullField\541.jpg"/>
+      <property name="path[352]" value="D:\Eclipse\FRC\RealFullField\505.jpg"/>
+      <property name="path[4]" value="D:\Eclipse\FRC\RealFullField\6.jpg"/>
+      <property name="path[284]" value="D:\Eclipse\FRC\RealFullField\427.jpg"/>
+      <property name="path[180]" value="D:\Eclipse\FRC\RealFullField\301.jpg"/>
+      <property name="path[348]" value="D:\Eclipse\FRC\RealFullField\501.jpg"/>
+      <property name="path[98]" value="D:\Eclipse\FRC\RealFullField\213.jpg"/>
+      <property name="path[312]" value="D:\Eclipse\FRC\RealFullField\465.jpg"/>
+      <property name="path[62]" value="D:\Eclipse\FRC\RealFullField\89.jpg"/>
+      <property name="path[244]" value="D:\Eclipse\FRC\RealFullField\365.jpg"/>
+      <property name="path[176]" value="D:\Eclipse\FRC\RealFullField\297.jpg"/>
+      <property name="path[140]" value="D:\Eclipse\FRC\RealFullField\257.jpg"/>
+      <property name="path[308]" value="D:\Eclipse\FRC\RealFullField\451.jpg"/>
+      <property name="path[58]" value="D:\Eclipse\FRC\RealFullField\85.jpg"/>
+      <property name="path[22]" value="D:\Eclipse\FRC\RealFullField\25.jpg"/>
+      <property name="path[204]" value="D:\Eclipse\FRC\RealFullField\325.jpg"/>
+      <property name="path[136]" value="D:\Eclipse\FRC\RealFullField\252.jpg"/>
+      <property name="path[100]" value="D:\Eclipse\FRC\RealFullField\215.jpg"/>
+      <property name="path[18]" value="D:\Eclipse\FRC\RealFullField\21.jpg"/>
+      <property name="path[387]" value="D:\Eclipse\FRC\RealFullField\540.jpg"/>
+      <property name="path[351]" value="D:\Eclipse\FRC\RealFullField\504.jpg"/>
+      <property name="path[3]" value="D:\Eclipse\FRC\RealFullField\5.jpg"/>
+      <property name="path[283]" value="D:\Eclipse\FRC\RealFullField\426.jpg"/>
+      <property name="path[347]" value="D:\Eclipse\FRC\RealFullField\500.jpg"/>
+      <property name="path[97]" value="D:\Eclipse\FRC\RealFullField\212.jpg"/>
+      <property name="path[311]" value="D:\Eclipse\FRC\RealFullField\454.jpg"/>
+      <property name="path[279]" value="D:\Eclipse\FRC\RealFullField\422.jpg"/>
+      <property name="path[61]" value="D:\Eclipse\FRC\RealFullField\88.jpg"/>
+      <property name="path[243]" value="D:\Eclipse\FRC\RealFullField\364.jpg"/>
+      <property name="path[175]" value="D:\Eclipse\FRC\RealFullField\296.jpg"/>
+      <property name="path[307]" value="D:\Eclipse\FRC\RealFullField\450.jpg"/>
+      <property name="path[57]" value="D:\Eclipse\FRC\RealFullField\84.jpg"/>
+      <property name="path[239]" value="D:\Eclipse\FRC\RealFullField\360.jpg"/>
+      <property name="path[21]" value="D:\Eclipse\FRC\RealFullField\24.jpg"/>
+      <property name="path[203]" value="D:\Eclipse\FRC\RealFullField\324.jpg"/>
+      <property name="path[135]" value="D:\Eclipse\FRC\RealFullField\251.jpg"/>
+      <property name="path[17]" value="D:\Eclipse\FRC\RealFullField\20.jpg"/>
+      <property name="path[386]" value="D:\Eclipse\FRC\RealFullField\539.jpg"/>
+      <property name="path[350]" value="D:\Eclipse\FRC\RealFullField\503.jpg"/>
+      <property name="path[2]" value="D:\Eclipse\FRC\RealFullField\4.jpg"/>
+      <property name="path[282]" value="D:\Eclipse\FRC\RealFullField\425.jpg"/>
+      <property name="path[346]" value="D:\Eclipse\FRC\RealFullField\499.jpg"/>
+      <property name="path[96]" value="D:\Eclipse\FRC\RealFullField\211.jpg"/>
+      <property name="path[310]" value="D:\Eclipse\FRC\RealFullField\453.jpg"/>
+      <property name="path[278]" value="D:\Eclipse\FRC\RealFullField\421.jpg"/>
+      <property name="path[60]" value="D:\Eclipse\FRC\RealFullField\87.jpg"/>
+      <property name="path[242]" value="D:\Eclipse\FRC\RealFullField\363.jpg"/>
+      <property name="path[174]" value="D:\Eclipse\FRC\RealFullField\295.jpg"/>
+      <property name="path[306]" value="D:\Eclipse\FRC\RealFullField\449.jpg"/>
+      <property name="path[56]" value="D:\Eclipse\FRC\RealFullField\83.jpg"/>
+      <property name="path[238]" value="D:\Eclipse\FRC\RealFullField\359.jpg"/>
+      <property name="path[20]" value="D:\Eclipse\FRC\RealFullField\23.jpg"/>
+      <property name="path[202]" value="D:\Eclipse\FRC\RealFullField\323.jpg"/>
+      <property name="path[134]" value="D:\Eclipse\FRC\RealFullField\249.jpg"/>
+      <property name="path[16]" value="D:\Eclipse\FRC\RealFullField\19.jpg"/>
+      <property name="path[385]" value="D:\Eclipse\FRC\RealFullField\538.jpg"/>
+      <property name="path[1]" value="D:\Eclipse\FRC\RealFullField\3.jpg"/>
+      <property name="path[281]" value="D:\Eclipse\FRC\RealFullField\424.jpg"/>
+      <property name="path[345]" value="D:\Eclipse\FRC\RealFullField\498.jpg"/>
+      <property name="path[95]" value="D:\Eclipse\FRC\RealFullField\210.jpg"/>
+      <property name="path[277]" value="D:\Eclipse\FRC\RealFullField\420.jpg"/>
+      <property name="path[241]" value="D:\Eclipse\FRC\RealFullField\362.jpg"/>
+      <property name="path[173]" value="D:\Eclipse\FRC\RealFullField\294.jpg"/>
+      <property name="path[305]" value="D:\Eclipse\FRC\RealFullField\448.jpg"/>
+      <property name="path[55]" value="D:\Eclipse\FRC\RealFullField\82.jpg"/>
+      <property name="path[237]" value="D:\Eclipse\FRC\RealFullField\358.jpg"/>
+      <property name="path[169]" value="D:\Eclipse\FRC\RealFullField\290.jpg"/>
+      <property name="path[201]" value="D:\Eclipse\FRC\RealFullField\322.jpg"/>
+      <property name="path[133]" value="D:\Eclipse\FRC\RealFullField\248.jpg"/>
+      <property name="path[15]" value="D:\Eclipse\FRC\RealFullField\18.jpg"/>
+      <property name="path[129]" value="D:\Eclipse\FRC\RealFullField\244.jpg"/>
+      <property name="path[384]" value="D:\Eclipse\FRC\RealFullField\537.jpg"/>
+      <property name="path[0]" value="D:\Eclipse\FRC\RealFullField\0.jpg"/>
+      <property name="path[280]" value="D:\Eclipse\FRC\RealFullField\423.jpg"/>
+      <property name="path[344]" value="D:\Eclipse\FRC\RealFullField\497.jpg"/>
+      <property name="path[94]" value="D:\Eclipse\FRC\RealFullField\209.jpg"/>
+      <property name="path[276]" value="D:\Eclipse\FRC\RealFullField\399.jpg"/>
+      <property name="path[240]" value="D:\Eclipse\FRC\RealFullField\361.jpg"/>
+      <property name="path[172]" value="D:\Eclipse\FRC\RealFullField\293.jpg"/>
+      <property name="path[304]" value="D:\Eclipse\FRC\RealFullField\447.jpg"/>
+      <property name="path[54]" value="D:\Eclipse\FRC\RealFullField\81.jpg"/>
+      <property name="path[236]" value="D:\Eclipse\FRC\RealFullField\357.jpg"/>
+      <property name="path[168]" value="D:\Eclipse\FRC\RealFullField\285.jpg"/>
+      <property name="path[200]" value="D:\Eclipse\FRC\RealFullField\321.jpg"/>
+      <property name="path[132]" value="D:\Eclipse\FRC\RealFullField\247.jpg"/>
+      <property name="path[14]" value="D:\Eclipse\FRC\RealFullField\17.jpg"/>
+      <property name="path[128]" value="D:\Eclipse\FRC\RealFullField\243.jpg"/>
+      <property name="path[383]" value="D:\Eclipse\FRC\RealFullField\536.jpg"/>
+      <property name="path[379]" value="D:\Eclipse\FRC\RealFullField\532.jpg"/>
+      <property name="path[343]" value="D:\Eclipse\FRC\RealFullField\496.jpg"/>
+      <property name="path[93]" value="D:\Eclipse\FRC\RealFullField\208.jpg"/>
+      <property name="path[275]" value="D:\Eclipse\FRC\RealFullField\398.jpg"/>
+      <property name="path[171]" value="D:\Eclipse\FRC\RealFullField\292.jpg"/>
+      <property name="path[339]" value="D:\Eclipse\FRC\RealFullField\492.jpg"/>
+      <property name="path[89]" value="D:\Eclipse\FRC\RealFullField\204.jpg"/>
+      <property name="path[303]" value="D:\Eclipse\FRC\RealFullField\446.jpg"/>
+      <property name="path[53]" value="D:\Eclipse\FRC\RealFullField\80.jpg"/>
+      <property name="path[235]" value="D:\Eclipse\FRC\RealFullField\356.jpg"/>
+      <property name="path[167]" value="D:\Eclipse\FRC\RealFullField\284.jpg"/>
+      <property name="path[131]" value="D:\Eclipse\FRC\RealFullField\246.jpg"/>
+      <property name="path[49]" value="D:\Eclipse\FRC\RealFullField\74.jpg"/>
+      <property name="path[13]" value="D:\Eclipse\FRC\RealFullField\16.jpg"/>
+      <property name="path[127]" value="D:\Eclipse\FRC\RealFullField\242.jpg"/>
+      <property name="path[382]" value="D:\Eclipse\FRC\RealFullField\535.jpg"/>
+      <property name="path[378]" value="D:\Eclipse\FRC\RealFullField\531.jpg"/>
+      <property name="path[342]" value="D:\Eclipse\FRC\RealFullField\495.jpg"/>
+      <property name="path[92]" value="D:\Eclipse\FRC\RealFullField\207.jpg"/>
+      <property name="path[274]" value="D:\Eclipse\FRC\RealFullField\397.jpg"/>
+      <property name="path[170]" value="D:\Eclipse\FRC\RealFullField\291.jpg"/>
+      <property name="path[338]" value="D:\Eclipse\FRC\RealFullField\491.jpg"/>
+      <property name="path[88]" value="D:\Eclipse\FRC\RealFullField\203.jpg"/>
+      <property name="path[302]" value="D:\Eclipse\FRC\RealFullField\445.jpg"/>
+      <property name="path[52]" value="D:\Eclipse\FRC\RealFullField\79.jpg"/>
+      <property name="path[234]" value="D:\Eclipse\FRC\RealFullField\355.jpg"/>
+      <property name="path[166]" value="D:\Eclipse\FRC\RealFullField\283.jpg"/>
+      <property name="path[130]" value="D:\Eclipse\FRC\RealFullField\245.jpg"/>
+      <property name="path[48]" value="D:\Eclipse\FRC\RealFullField\73.jpg"/>
+      <property name="path[12]" value="D:\Eclipse\FRC\RealFullField\15.jpg"/>
+      <property name="path[126]" value="D:\Eclipse\FRC\RealFullField\241.jpg"/>
+      <property name="path[381]" value="D:\Eclipse\FRC\RealFullField\534.jpg"/>
+      <property name="path[377]" value="D:\Eclipse\FRC\RealFullField\530.jpg"/>
+      <property name="path[341]" value="D:\Eclipse\FRC\RealFullField\494.jpg"/>
+      <property name="path[91]" value="D:\Eclipse\FRC\RealFullField\206.jpg"/>
+      <property name="path[273]" value="D:\Eclipse\FRC\RealFullField\396.jpg"/>
+      <property name="path[337]" value="D:\Eclipse\FRC\RealFullField\490.jpg"/>
+      <property name="path[87]" value="D:\Eclipse\FRC\RealFullField\202.jpg"/>
+      <property name="path[301]" value="D:\Eclipse\FRC\RealFullField\444.jpg"/>
+      <property name="path[269]" value="D:\Eclipse\FRC\RealFullField\392.jpg"/>
+      <property name="path[51]" value="D:\Eclipse\FRC\RealFullField\76.jpg"/>
+      <property name="path[233]" value="D:\Eclipse\FRC\RealFullField\354.jpg"/>
+      <property name="path[165]" value="D:\Eclipse\FRC\RealFullField\282.jpg"/>
+      <property name="path[47]" value="D:\Eclipse\FRC\RealFullField\72.jpg"/>
+      <property name="path[229]" value="D:\Eclipse\FRC\RealFullField\350.jpg"/>
+      <property name="path[11]" value="D:\Eclipse\FRC\RealFullField\14.jpg"/>
+      <property name="path[125]" value="D:\Eclipse\FRC\RealFullField\240.jpg"/>
+      <property name="path[380]" value="D:\Eclipse\FRC\RealFullField\533.jpg"/>
+      <property name="path[376]" value="D:\Eclipse\FRC\RealFullField\529.jpg"/>
+      <property name="path[340]" value="D:\Eclipse\FRC\RealFullField\493.jpg"/>
+      <property name="path[90]" value="D:\Eclipse\FRC\RealFullField\205.jpg"/>
+      <property name="path[272]" value="D:\Eclipse\FRC\RealFullField\395.jpg"/>
+      <property name="path[336]" value="D:\Eclipse\FRC\RealFullField\489.jpg"/>
+      <property name="path[86]" value="D:\Eclipse\FRC\RealFullField\201.jpg"/>
+      <property name="path[300]" value="D:\Eclipse\FRC\RealFullField\443.jpg"/>
+      <property name="path[268]" value="D:\Eclipse\FRC\RealFullField\391.jpg"/>
+      <property name="path[50]" value="D:\Eclipse\FRC\RealFullField\75.jpg"/>
+      <property name="path[232]" value="D:\Eclipse\FRC\RealFullField\353.jpg"/>
+      <property name="path[164]" value="D:\Eclipse\FRC\RealFullField\281.jpg"/>
+      <property name="path[46]" value="D:\Eclipse\FRC\RealFullField\71.jpg"/>
+      <property name="path[228]" value="D:\Eclipse\FRC\RealFullField\349.jpg"/>
+      <property name="path[10]" value="D:\Eclipse\FRC\RealFullField\13.jpg"/>
+      <property name="path[124]" value="D:\Eclipse\FRC\RealFullField\239.jpg"/>
+      <property name="path[375]" value="D:\Eclipse\FRC\RealFullField\528.jpg"/>
+      <property name="path[271]" value="D:\Eclipse\FRC\RealFullField\394.jpg"/>
+      <property name="path[335]" value="D:\Eclipse\FRC\RealFullField\488.jpg"/>
+      <property name="path[85]" value="D:\Eclipse\FRC\RealFullField\200.jpg"/>
+      <property name="path[267]" value="D:\Eclipse\FRC\RealFullField\390.jpg"/>
+      <property name="path[199]" value="D:\Eclipse\FRC\RealFullField\320.jpg"/>
+      <property name="path[231]" value="D:\Eclipse\FRC\RealFullField\352.jpg"/>
+      <property name="path[163]" value="D:\Eclipse\FRC\RealFullField\280.jpg"/>
+      <property name="path[45]" value="D:\Eclipse\FRC\RealFullField\70.jpg"/>
+      <property name="path[227]" value="D:\Eclipse\FRC\RealFullField\348.jpg"/>
+      <property name="path[159]" value="D:\Eclipse\FRC\RealFullField\276.jpg"/>
+      <property name="path[123]" value="D:\Eclipse\FRC\RealFullField\238.jpg"/>
+      <property name="index" value="315"/>
+      <property name="path[119]" value="D:\Eclipse\FRC\RealFullField\234.jpg"/>
+      <property name="path[374]" value="D:\Eclipse\FRC\RealFullField\527.jpg"/>
+      <property name="path[270]" value="D:\Eclipse\FRC\RealFullField\393.jpg"/>
+      <property name="path[334]" value="D:\Eclipse\FRC\RealFullField\487.jpg"/>
+      <property name="path[84]" value="D:\Eclipse\FRC\RealFullField\199.jpg"/>
+      <property name="path[266]" value="D:\Eclipse\FRC\RealFullField\389.jpg"/>
+      <property name="path[230]" value="D:\Eclipse\FRC\RealFullField\351.jpg"/>
+      <property name="path[198]" value="D:\Eclipse\FRC\RealFullField\319.jpg"/>
+      <property name="path[162]" value="D:\Eclipse\FRC\RealFullField\279.jpg"/>
+      <property name="path[44]" value="D:\Eclipse\FRC\RealFullField\69.jpg"/>
+      <property name="path[226]" value="D:\Eclipse\FRC\RealFullField\347.jpg"/>
+      <property name="path[158]" value="D:\Eclipse\FRC\RealFullField\275.jpg"/>
+      <property name="path[122]" value="D:\Eclipse\FRC\RealFullField\237.jpg"/>
+      <property name="path[118]" value="D:\Eclipse\FRC\RealFullField\233.jpg"/>
+      <property name="path[373]" value="D:\Eclipse\FRC\RealFullField\526.jpg"/>
+      <property name="path[369]" value="D:\Eclipse\FRC\RealFullField\522.jpg"/>
+      <property name="path[333]" value="D:\Eclipse\FRC\RealFullField\486.jpg"/>
+      <property name="path[83]" value="D:\Eclipse\FRC\RealFullField\198.jpg"/>
+      <property name="path[265]" value="D:\Eclipse\FRC\RealFullField\388.jpg"/>
+      <property name="path[197]" value="D:\Eclipse\FRC\RealFullField\318.jpg"/>
+      <property name="path[161]" value="D:\Eclipse\FRC\RealFullField\278.jpg"/>
+      <property name="path[329]" value="D:\Eclipse\FRC\RealFullField\482.jpg"/>
+      <property name="path[79]" value="D:\Eclipse\FRC\RealFullField\194.jpg"/>
+      <property name="path[43]" value="D:\Eclipse\FRC\RealFullField\68.jpg"/>
+      <property name="path[225]" value="D:\Eclipse\FRC\RealFullField\346.jpg"/>
+      <property name="path[157]" value="D:\Eclipse\FRC\RealFullField\274.jpg"/>
+      <property name="path[121]" value="D:\Eclipse\FRC\RealFullField\236.jpg"/>
+      <property name="path[39]" value="D:\Eclipse\FRC\RealFullField\64.jpg"/>
+      <property name="path[117]" value="D:\Eclipse\FRC\RealFullField\232.jpg"/>
+      <property name="path[372]" value="D:\Eclipse\FRC\RealFullField\525.jpg"/>
+      <property name="path[368]" value="D:\Eclipse\FRC\RealFullField\521.jpg"/>
+      <property name="path[332]" value="D:\Eclipse\FRC\RealFullField\485.jpg"/>
+      <property name="path[82]" value="D:\Eclipse\FRC\RealFullField\197.jpg"/>
+      <property name="path[264]" value="D:\Eclipse\FRC\RealFullField\387.jpg"/>
+      <property name="path[196]" value="D:\Eclipse\FRC\RealFullField\317.jpg"/>
+      <property name="path[160]" value="D:\Eclipse\FRC\RealFullField\277.jpg"/>
+      <property name="path[328]" value="D:\Eclipse\FRC\RealFullField\481.jpg"/>
+      <property name="path[78]" value="D:\Eclipse\FRC\RealFullField\193.jpg"/>
+      <property name="path[42]" value="D:\Eclipse\FRC\RealFullField\67.jpg"/>
+      <property name="path[224]" value="D:\Eclipse\FRC\RealFullField\345.jpg"/>
+      <property name="path[156]" value="D:\Eclipse\FRC\RealFullField\273.jpg"/>
+      <property name="path[120]" value="D:\Eclipse\FRC\RealFullField\235.jpg"/>
+      <property name="path[38]" value="D:\Eclipse\FRC\RealFullField\63.jpg"/>
+      <property name="path[116]" value="D:\Eclipse\FRC\RealFullField\231.jpg"/>
+      <property name="path[371]" value="D:\Eclipse\FRC\RealFullField\524.jpg"/>
+      <property name="path[367]" value="D:\Eclipse\FRC\RealFullField\520.jpg"/>
+      <property name="path[331]" value="D:\Eclipse\FRC\RealFullField\484.jpg"/>
+      <property name="path[299]" value="D:\Eclipse\FRC\RealFullField\442.jpg"/>
+      <property name="path[81]" value="D:\Eclipse\FRC\RealFullField\196.jpg"/>
+      <property name="path[263]" value="D:\Eclipse\FRC\RealFullField\386.jpg"/>
+      <property name="path[195]" value="D:\Eclipse\FRC\RealFullField\316.jpg"/>
+      <property name="path[327]" value="D:\Eclipse\FRC\RealFullField\480.jpg"/>
+      <property name="path[77]" value="D:\Eclipse\FRC\RealFullField\192.jpg"/>
+      <property name="path[259]" value="D:\Eclipse\FRC\RealFullField\380.jpg"/>
+      <property name="path[41]" value="D:\Eclipse\FRC\RealFullField\66.jpg"/>
+      <property name="path[223]" value="D:\Eclipse\FRC\RealFullField\344.jpg"/>
+      <property name="path[155]" value="D:\Eclipse\FRC\RealFullField\272.jpg"/>
+      <property name="path[37]" value="D:\Eclipse\FRC\RealFullField\62.jpg"/>
+      <property name="path[219]" value="D:\Eclipse\FRC\RealFullField\340.jpg"/>
+      <property name="path[115]" value="D:\Eclipse\FRC\RealFullField\230.jpg"/>
+      <property name="path[370]" value="D:\Eclipse\FRC\RealFullField\523.jpg"/>
+      <property name="path[366]" value="D:\Eclipse\FRC\RealFullField\519.jpg"/>
+      <property name="path[330]" value="D:\Eclipse\FRC\RealFullField\483.jpg"/>
+      <property name="path[298]" value="D:\Eclipse\FRC\RealFullField\441.jpg"/>
+      <property name="path[80]" value="D:\Eclipse\FRC\RealFullField\195.jpg"/>
+      <property name="path[262]" value="D:\Eclipse\FRC\RealFullField\385.jpg"/>
+      <property name="path[194]" value="D:\Eclipse\FRC\RealFullField\315.jpg"/>
+      <property name="path[326]" value="D:\Eclipse\FRC\RealFullField\479.jpg"/>
+      <property name="path[76]" value="D:\Eclipse\FRC\RealFullField\191.jpg"/>
+      <property name="path[258]" value="D:\Eclipse\FRC\RealFullField\379.jpg"/>
+      <property name="path[40]" value="D:\Eclipse\FRC\RealFullField\65.jpg"/>
+      <property name="path[222]" value="D:\Eclipse\FRC\RealFullField\343.jpg"/>
+      <property name="path[154]" value="D:\Eclipse\FRC\RealFullField\271.jpg"/>
+      <property name="path[36]" value="D:\Eclipse\FRC\RealFullField\61.jpg"/>
+      <property name="path[218]" value="D:\Eclipse\FRC\RealFullField\339.jpg"/>
+      <property name="path[114]" value="D:\Eclipse\FRC\RealFullField\229.jpg"/>
+      <property name="path[365]" value="D:\Eclipse\FRC\RealFullField\518.jpg"/>
+      <property name="path[297]" value="D:\Eclipse\FRC\RealFullField\440.jpg"/>
+      <property name="path[261]" value="D:\Eclipse\FRC\RealFullField\384.jpg"/>
+      <property name="path[193]" value="D:\Eclipse\FRC\RealFullField\314.jpg"/>
+      <property name="path[325]" value="D:\Eclipse\FRC\RealFullField\478.jpg"/>
+      <property name="path[75]" value="D:\Eclipse\FRC\RealFullField\190.jpg"/>
+      <property name="path[257]" value="D:\Eclipse\FRC\RealFullField\378.jpg"/>
+      <property name="path[189]" value="D:\Eclipse\FRC\RealFullField\310.jpg"/>
+      <property name="path[221]" value="D:\Eclipse\FRC\RealFullField\342.jpg"/>
+      <property name="path[153]" value="D:\Eclipse\FRC\RealFullField\270.jpg"/>
+      <property name="path[35]" value="D:\Eclipse\FRC\RealFullField\60.jpg"/>
+      <property name="path[217]" value="D:\Eclipse\FRC\RealFullField\338.jpg"/>
+      <property name="path[149]" value="D:\Eclipse\FRC\RealFullField\266.jpg"/>
+      <property name="path[113]" value="D:\Eclipse\FRC\RealFullField\228.jpg"/>
+      <property name="path[109]" value="D:\Eclipse\FRC\RealFullField\224.jpg"/>
+      <property name="path[364]" value="D:\Eclipse\FRC\RealFullField\517.jpg"/>
+      <property name="path[296]" value="D:\Eclipse\FRC\RealFullField\439.jpg"/>
+      <property name="path[260]" value="D:\Eclipse\FRC\RealFullField\381.jpg"/>
+      <property name="path[192]" value="D:\Eclipse\FRC\RealFullField\313.jpg"/>
+      <property name="path[324]" value="D:\Eclipse\FRC\RealFullField\477.jpg"/>
+      <property name="path[74]" value="D:\Eclipse\FRC\RealFullField\189.jpg"/>
+      <property name="path[256]" value="D:\Eclipse\FRC\RealFullField\377.jpg"/>
+      <property name="path[188]" value="D:\Eclipse\FRC\RealFullField\309.jpg"/>
+      <property name="path[220]" value="D:\Eclipse\FRC\RealFullField\341.jpg"/>
+      <property name="path[152]" value="D:\Eclipse\FRC\RealFullField\269.jpg"/>
+      <property name="path[34]" value="D:\Eclipse\FRC\RealFullField\59.jpg"/>
+      <property name="path[216]" value="D:\Eclipse\FRC\RealFullField\337.jpg"/>
+      <property name="path[148]" value="D:\Eclipse\FRC\RealFullField\265.jpg"/>
+      <property name="path[112]" value="D:\Eclipse\FRC\RealFullField\227.jpg"/>
+    </grip:MultiImageFile>
+  </sources>
+  <steps>
+    <grip:Step name="CV resize">
+      <grip:Input step="0" socket="0"/>
+      <grip:Input step="0" socket="1"/>
+      <grip:Input step="0" socket="2">
+        <value>0.5</value>
+      </grip:Input>
+      <grip:Input step="0" socket="3">
+        <value>0.5</value>
+      </grip:Input>
+      <grip:Input step="0" socket="4">
+        <value>INTER_LINEAR</value>
+      </grip:Input>
+      <grip:Output step="0" socket="0" previewed="true"/>
+    </grip:Step>
+    <grip:Step name="HSV Threshold">
+      <grip:Input step="1" socket="0"/>
+      <grip:Input step="1" socket="1">
+        <value>
+          <double>64.74820143884892</double>
+          <double>95.15151515151514</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="1" socket="2">
+        <value>
+          <double>38.98381294964029</double>
+          <double>224.94949494949495</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="1" socket="3">
+        <value>
+          <double>55.03597122302158</double>
+          <double>179.87373737373738</double>
+        </value>
+      </grip:Input>
+      <grip:Output step="1" socket="0" previewed="true"/>
+    </grip:Step>
+    <grip:Step name="RGB Threshold">
+      <grip:Input step="2" socket="0"/>
+      <grip:Input step="2" socket="1">
+        <value>
+          <double>11.465827338129495</double>
+          <double>100.8838383838384</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="2" socket="2">
+        <value>
+          <double>77.96762589928058</double>
+          <double>186.31313131313132</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="2" socket="3">
+        <value>
+          <double>105.48561151079136</double>
+          <double>201.33838383838383</double>
+        </value>
+      </grip:Input>
+      <grip:Output step="2" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="RGB Threshold">
+      <grip:Input step="3" socket="0"/>
+      <grip:Input step="3" socket="1">
+        <value>
+          <double>68.79496402877697</double>
+          <double>149.82323232323233</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="3" socket="2">
+        <value>
+          <double>128.41726618705036</double>
+          <double>175.58080808080808</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="3" socket="3">
+        <value>
+          <double>144.46942446043167</double>
+          <double>190.6060606060606</double>
+        </value>
+      </grip:Input>
+      <grip:Output step="3" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="RGB Threshold">
+      <grip:Input step="4" socket="0"/>
+      <grip:Input step="4" socket="1">
+        <value>
+          <double>0.0</double>
+          <double>74.6969696969697</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="4" socket="2">
+        <value>
+          <double>105.48561151079136</double>
+          <double>158.40909090909088</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="4" socket="3">
+        <value>
+          <double>110.07194244604317</double>
+          <double>160.55555555555554</double>
+        </value>
+      </grip:Input>
+      <grip:Output step="4" socket="0" previewed="true"/>
+    </grip:Step>
+    <grip:Step name="CV add">
+      <grip:Input step="5" socket="0"/>
+      <grip:Input step="5" socket="1"/>
+      <grip:Output step="5" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV add">
+      <grip:Input step="6" socket="0"/>
+      <grip:Input step="6" socket="1"/>
+      <grip:Output step="6" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV add">
+      <grip:Input step="7" socket="0"/>
+      <grip:Input step="7" socket="1"/>
+      <grip:Output step="7" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="Find Contours">
+      <grip:Input step="8" socket="0"/>
+      <grip:Input step="8" socket="1">
+        <value>true</value>
+      </grip:Input>
+      <grip:Output step="8" socket="0" previewed="true"/>
+    </grip:Step>
+    <grip:Step name="Filter Contours">
+      <grip:Input step="9" socket="0"/>
+      <grip:Input step="9" socket="1">
+        <value>20.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="2">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="3">
+        <value>15.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="4">
+        <value>1000.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="5">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="6">
+        <value>300.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="7">
+        <value>
+          <double>0.0</double>
+          <double>48.6604655669404</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="9" socket="8">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="9">
+        <value>1000000.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="10">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="11">
+        <value>1000.0</value>
+      </grip:Input>
+      <grip:Output step="9" socket="0" previewed="true"/>
+    </grip:Step>
+  </steps>
+  <connections>
+    <grip:Connection>
+      <grip:Output step="5" socket="0" previewed="false"/>
+      <grip:Input step="6" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="0" socket="0" previewed="true"/>
+      <grip:Input step="2" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="3" socket="0" previewed="false"/>
+      <grip:Input step="6" socket="1"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="2" socket="0" previewed="false"/>
+      <grip:Input step="5" socket="1"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output source="1" socket="0" previewed="false"/>
+      <grip:Input step="0" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="1" socket="0" previewed="true"/>
+      <grip:Input step="5" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="8" socket="0" previewed="true"/>
+      <grip:Input step="9" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="0" socket="0" previewed="true"/>
+      <grip:Input step="4" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="0" socket="0" previewed="true"/>
+      <grip:Input step="1" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="7" socket="0" previewed="false"/>
+      <grip:Input step="8" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="0" socket="0" previewed="true"/>
+      <grip:Input step="3" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="6" socket="0" previewed="false"/>
+      <grip:Input step="7" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="4" socket="0" previewed="true"/>
+      <grip:Input step="7" socket="1"/>
+    </grip:Connection>
+  </connections>
+  <settings>
+    <teamNumber>0</teamNumber>
+    <publishAddress>roborio-0-frc.local</publishAddress>
+    <deployAddress>roborio-0-frc.local</deployAddress>
+    <deployDir>/home/lvuser</deployDir>
+    <deployUser>lvuser</deployUser>
+    <deployJavaHome>/usr/local/frc/JRE/</deployJavaHome>
+    <deployJvmOptions>-Xmx50m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError</deployJvmOptions>
+  </settings>
+</grip:Pipeline>

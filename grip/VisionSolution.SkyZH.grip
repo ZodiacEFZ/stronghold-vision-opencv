@@ -1,0 +1,510 @@
+<grip:Pipeline>
+  <sources>
+    <grip:MultiImageFile>
+      <property name="path[108]" value="D:\Work\vision_process\RealFullField\223.jpg"/>
+      <property name="path[363]" value="D:\Work\vision_process\RealFullField\516.jpg"/>
+      <property name="path[295]" value="D:\Work\vision_process\RealFullField\438.jpg"/>
+      <property name="path[191]" value="D:\Work\vision_process\RealFullField\312.jpg"/>
+      <property name="path[359]" value="D:\Work\vision_process\RealFullField\512.jpg"/>
+      <property name="path[323]" value="D:\Work\vision_process\RealFullField\476.jpg"/>
+      <property name="path[73]" value="D:\Work\vision_process\RealFullField\188.jpg"/>
+      <property name="path[255]" value="D:\Work\vision_process\RealFullField\376.jpg"/>
+      <property name="path[187]" value="D:\Work\vision_process\RealFullField\308.jpg"/>
+      <property name="path[151]" value="D:\Work\vision_process\RealFullField\268.jpg"/>
+      <property name="path[319]" value="D:\Work\vision_process\RealFullField\472.jpg"/>
+      <property name="path[69]" value="D:\Work\vision_process\RealFullField\184.jpg"/>
+      <property name="path[33]" value="D:\Work\vision_process\RealFullField\58.jpg"/>
+      <property name="path[215]" value="D:\Work\vision_process\RealFullField\336.jpg"/>
+      <property name="path[147]" value="D:\Work\vision_process\RealFullField\264.jpg"/>
+      <property name="path[111]" value="D:\Work\vision_process\RealFullField\226.jpg"/>
+      <property name="path[29]" value="D:\Work\vision_process\RealFullField\32.jpg"/>
+      <property name="path[107]" value="D:\Work\vision_process\RealFullField\222.jpg"/>
+      <property name="path[362]" value="D:\Work\vision_process\RealFullField\515.jpg"/>
+      <property name="path[294]" value="D:\Work\vision_process\RealFullField\437.jpg"/>
+      <property name="path[190]" value="D:\Work\vision_process\RealFullField\311.jpg"/>
+      <property name="path[358]" value="D:\Work\vision_process\RealFullField\511.jpg"/>
+      <property name="path[322]" value="D:\Work\vision_process\RealFullField\475.jpg"/>
+      <property name="path[72]" value="D:\Work\vision_process\RealFullField\187.jpg"/>
+      <property name="path[254]" value="D:\Work\vision_process\RealFullField\375.jpg"/>
+      <property name="path[186]" value="D:\Work\vision_process\RealFullField\307.jpg"/>
+      <property name="path[150]" value="D:\Work\vision_process\RealFullField\267.jpg"/>
+      <property name="path[318]" value="D:\Work\vision_process\RealFullField\471.jpg"/>
+      <property name="path[68]" value="D:\Work\vision_process\RealFullField\183.jpg"/>
+      <property name="path[32]" value="D:\Work\vision_process\RealFullField\56.jpg"/>
+      <property name="path[214]" value="D:\Work\vision_process\RealFullField\335.jpg"/>
+      <property name="path[146]" value="D:\Work\vision_process\RealFullField\263.jpg"/>
+      <property name="path[110]" value="D:\Work\vision_process\RealFullField\225.jpg"/>
+      <property name="path[28]" value="D:\Work\vision_process\RealFullField\31.jpg"/>
+      <property name="path[106]" value="D:\Work\vision_process\RealFullField\221.jpg"/>
+      <property name="path[361]" value="D:\Work\vision_process\RealFullField\514.jpg"/>
+      <property name="path[293]" value="D:\Work\vision_process\RealFullField\436.jpg"/>
+      <property name="path[357]" value="D:\Work\vision_process\RealFullField\510.jpg"/>
+      <property name="path[321]" value="D:\Work\vision_process\RealFullField\474.jpg"/>
+      <property name="path[289]" value="D:\Work\vision_process\RealFullField\432.jpg"/>
+      <property name="path[71]" value="D:\Work\vision_process\RealFullField\186.jpg"/>
+      <property name="path[9]" value="D:\Work\vision_process\RealFullField\12.jpg"/>
+      <property name="path[253]" value="D:\Work\vision_process\RealFullField\374.jpg"/>
+      <property name="path[185]" value="D:\Work\vision_process\RealFullField\306.jpg"/>
+      <property name="path[317]" value="D:\Work\vision_process\RealFullField\470.jpg"/>
+      <property name="path[67]" value="D:\Work\vision_process\RealFullField\182.jpg"/>
+      <property name="path[249]" value="D:\Work\vision_process\RealFullField\370.jpg"/>
+      <property name="path[31]" value="D:\Work\vision_process\RealFullField\55.jpg"/>
+      <property name="path[213]" value="D:\Work\vision_process\RealFullField\334.jpg"/>
+      <property name="path[145]" value="D:\Work\vision_process\RealFullField\262.jpg"/>
+      <property name="path[27]" value="D:\Work\vision_process\RealFullField\30.jpg"/>
+      <property name="path[209]" value="D:\Work\vision_process\RealFullField\330.jpg"/>
+      <property name="path[105]" value="D:\Work\vision_process\RealFullField\220.jpg"/>
+      <property name="path[360]" value="D:\Work\vision_process\RealFullField\513.jpg"/>
+      <property name="path[292]" value="D:\Work\vision_process\RealFullField\435.jpg"/>
+      <property name="path[356]" value="D:\Work\vision_process\RealFullField\509.jpg"/>
+      <property name="path[320]" value="D:\Work\vision_process\RealFullField\473.jpg"/>
+      <property name="path[288]" value="D:\Work\vision_process\RealFullField\431.jpg"/>
+      <property name="path[70]" value="D:\Work\vision_process\RealFullField\185.jpg"/>
+      <property name="path[8]" value="D:\Work\vision_process\RealFullField\11.jpg"/>
+      <property name="path[252]" value="D:\Work\vision_process\RealFullField\373.jpg"/>
+      <property name="path[184]" value="D:\Work\vision_process\RealFullField\305.jpg"/>
+      <property name="path[316]" value="D:\Work\vision_process\RealFullField\469.jpg"/>
+      <property name="path[66]" value="D:\Work\vision_process\RealFullField\181.jpg"/>
+      <property name="path[248]" value="D:\Work\vision_process\RealFullField\369.jpg"/>
+      <property name="path[30]" value="D:\Work\vision_process\RealFullField\33.jpg"/>
+      <property name="path[212]" value="D:\Work\vision_process\RealFullField\333.jpg"/>
+      <property name="path[144]" value="D:\Work\vision_process\RealFullField\261.jpg"/>
+      <property name="path[26]" value="D:\Work\vision_process\RealFullField\29.jpg"/>
+      <property name="path[208]" value="D:\Work\vision_process\RealFullField\329.jpg"/>
+      <property name="path[104]" value="D:\Work\vision_process\RealFullField\219.jpg"/>
+      <property name="path[291]" value="D:\Work\vision_process\RealFullField\434.jpg"/>
+      <property name="numImages" value="390"/>
+      <property name="path[355]" value="D:\Work\vision_process\RealFullField\508.jpg"/>
+      <property name="path[287]" value="D:\Work\vision_process\RealFullField\430.jpg"/>
+      <property name="path[7]" value="D:\Work\vision_process\RealFullField\9.jpg"/>
+      <property name="path[251]" value="D:\Work\vision_process\RealFullField\372.jpg"/>
+      <property name="path[183]" value="D:\Work\vision_process\RealFullField\304.jpg"/>
+      <property name="path[315]" value="D:\Work\vision_process\RealFullField\468.jpg"/>
+      <property name="path[65]" value="D:\Work\vision_process\RealFullField\92.jpg"/>
+      <property name="path[247]" value="D:\Work\vision_process\RealFullField\368.jpg"/>
+      <property name="path[179]" value="D:\Work\vision_process\RealFullField\300.jpg"/>
+      <property name="path[211]" value="D:\Work\vision_process\RealFullField\332.jpg"/>
+      <property name="path[143]" value="D:\Work\vision_process\RealFullField\260.jpg"/>
+      <property name="path[25]" value="D:\Work\vision_process\RealFullField\28.jpg"/>
+      <property name="path[207]" value="D:\Work\vision_process\RealFullField\328.jpg"/>
+      <property name="path[139]" value="D:\Work\vision_process\RealFullField\255.jpg"/>
+      <property name="path[103]" value="D:\Work\vision_process\RealFullField\218.jpg"/>
+      <property name="path[290]" value="D:\Work\vision_process\RealFullField\433.jpg"/>
+      <property name="path[354]" value="D:\Work\vision_process\RealFullField\507.jpg"/>
+      <property name="path[286]" value="D:\Work\vision_process\RealFullField\429.jpg"/>
+      <property name="path[6]" value="D:\Work\vision_process\RealFullField\8.jpg"/>
+      <property name="path[250]" value="D:\Work\vision_process\RealFullField\371.jpg"/>
+      <property name="path[182]" value="D:\Work\vision_process\RealFullField\303.jpg"/>
+      <property name="path[314]" value="D:\Work\vision_process\RealFullField\467.jpg"/>
+      <property name="path[64]" value="D:\Work\vision_process\RealFullField\91.jpg"/>
+      <property name="path[246]" value="D:\Work\vision_process\RealFullField\367.jpg"/>
+      <property name="path[210]" value="D:\Work\vision_process\RealFullField\331.jpg"/>
+      <property name="path[178]" value="D:\Work\vision_process\RealFullField\299.jpg"/>
+      <property name="path[142]" value="D:\Work\vision_process\RealFullField\259.jpg"/>
+      <property name="path[24]" value="D:\Work\vision_process\RealFullField\27.jpg"/>
+      <property name="path[206]" value="D:\Work\vision_process\RealFullField\327.jpg"/>
+      <property name="path[138]" value="D:\Work\vision_process\RealFullField\254.jpg"/>
+      <property name="path[102]" value="D:\Work\vision_process\RealFullField\217.jpg"/>
+      <property name="path[389]" value="D:\Work\vision_process\RealFullField\542.jpg"/>
+      <property name="path[353]" value="D:\Work\vision_process\RealFullField\506.jpg"/>
+      <property name="path[285]" value="D:\Work\vision_process\RealFullField\428.jpg"/>
+      <property name="path[5]" value="D:\Work\vision_process\RealFullField\7.jpg"/>
+      <property name="path[181]" value="D:\Work\vision_process\RealFullField\302.jpg"/>
+      <property name="path[349]" value="D:\Work\vision_process\RealFullField\502.jpg"/>
+      <property name="path[99]" value="D:\Work\vision_process\RealFullField\214.jpg"/>
+      <property name="path[313]" value="D:\Work\vision_process\RealFullField\466.jpg"/>
+      <property name="path[63]" value="D:\Work\vision_process\RealFullField\90.jpg"/>
+      <property name="path[245]" value="D:\Work\vision_process\RealFullField\366.jpg"/>
+      <property name="path[177]" value="D:\Work\vision_process\RealFullField\298.jpg"/>
+      <property name="path[141]" value="D:\Work\vision_process\RealFullField\258.jpg"/>
+      <property name="path[309]" value="D:\Work\vision_process\RealFullField\452.jpg"/>
+      <property name="path[59]" value="D:\Work\vision_process\RealFullField\86.jpg"/>
+      <property name="path[23]" value="D:\Work\vision_process\RealFullField\26.jpg"/>
+      <property name="path[205]" value="D:\Work\vision_process\RealFullField\326.jpg"/>
+      <property name="path[137]" value="D:\Work\vision_process\RealFullField\253.jpg"/>
+      <property name="path[101]" value="D:\Work\vision_process\RealFullField\216.jpg"/>
+      <property name="path[19]" value="D:\Work\vision_process\RealFullField\22.jpg"/>
+      <property name="path[388]" value="D:\Work\vision_process\RealFullField\541.jpg"/>
+      <property name="path[352]" value="D:\Work\vision_process\RealFullField\505.jpg"/>
+      <property name="path[4]" value="D:\Work\vision_process\RealFullField\6.jpg"/>
+      <property name="path[284]" value="D:\Work\vision_process\RealFullField\427.jpg"/>
+      <property name="path[180]" value="D:\Work\vision_process\RealFullField\301.jpg"/>
+      <property name="path[348]" value="D:\Work\vision_process\RealFullField\501.jpg"/>
+      <property name="path[98]" value="D:\Work\vision_process\RealFullField\213.jpg"/>
+      <property name="path[312]" value="D:\Work\vision_process\RealFullField\465.jpg"/>
+      <property name="path[62]" value="D:\Work\vision_process\RealFullField\89.jpg"/>
+      <property name="path[244]" value="D:\Work\vision_process\RealFullField\365.jpg"/>
+      <property name="path[176]" value="D:\Work\vision_process\RealFullField\297.jpg"/>
+      <property name="path[140]" value="D:\Work\vision_process\RealFullField\257.jpg"/>
+      <property name="path[308]" value="D:\Work\vision_process\RealFullField\451.jpg"/>
+      <property name="path[58]" value="D:\Work\vision_process\RealFullField\85.jpg"/>
+      <property name="path[22]" value="D:\Work\vision_process\RealFullField\25.jpg"/>
+      <property name="path[204]" value="D:\Work\vision_process\RealFullField\325.jpg"/>
+      <property name="path[136]" value="D:\Work\vision_process\RealFullField\252.jpg"/>
+      <property name="path[100]" value="D:\Work\vision_process\RealFullField\215.jpg"/>
+      <property name="path[18]" value="D:\Work\vision_process\RealFullField\21.jpg"/>
+      <property name="path[387]" value="D:\Work\vision_process\RealFullField\540.jpg"/>
+      <property name="path[351]" value="D:\Work\vision_process\RealFullField\504.jpg"/>
+      <property name="path[3]" value="D:\Work\vision_process\RealFullField\5.jpg"/>
+      <property name="path[283]" value="D:\Work\vision_process\RealFullField\426.jpg"/>
+      <property name="path[347]" value="D:\Work\vision_process\RealFullField\500.jpg"/>
+      <property name="path[97]" value="D:\Work\vision_process\RealFullField\212.jpg"/>
+      <property name="path[311]" value="D:\Work\vision_process\RealFullField\454.jpg"/>
+      <property name="path[279]" value="D:\Work\vision_process\RealFullField\422.jpg"/>
+      <property name="path[61]" value="D:\Work\vision_process\RealFullField\88.jpg"/>
+      <property name="path[243]" value="D:\Work\vision_process\RealFullField\364.jpg"/>
+      <property name="path[175]" value="D:\Work\vision_process\RealFullField\296.jpg"/>
+      <property name="path[307]" value="D:\Work\vision_process\RealFullField\450.jpg"/>
+      <property name="path[57]" value="D:\Work\vision_process\RealFullField\84.jpg"/>
+      <property name="path[239]" value="D:\Work\vision_process\RealFullField\360.jpg"/>
+      <property name="path[21]" value="D:\Work\vision_process\RealFullField\24.jpg"/>
+      <property name="path[203]" value="D:\Work\vision_process\RealFullField\324.jpg"/>
+      <property name="path[135]" value="D:\Work\vision_process\RealFullField\251.jpg"/>
+      <property name="path[17]" value="D:\Work\vision_process\RealFullField\20.jpg"/>
+      <property name="path[386]" value="D:\Work\vision_process\RealFullField\539.jpg"/>
+      <property name="path[350]" value="D:\Work\vision_process\RealFullField\503.jpg"/>
+      <property name="path[2]" value="D:\Work\vision_process\RealFullField\4.jpg"/>
+      <property name="path[282]" value="D:\Work\vision_process\RealFullField\425.jpg"/>
+      <property name="path[346]" value="D:\Work\vision_process\RealFullField\499.jpg"/>
+      <property name="path[96]" value="D:\Work\vision_process\RealFullField\211.jpg"/>
+      <property name="path[310]" value="D:\Work\vision_process\RealFullField\453.jpg"/>
+      <property name="path[278]" value="D:\Work\vision_process\RealFullField\421.jpg"/>
+      <property name="path[60]" value="D:\Work\vision_process\RealFullField\87.jpg"/>
+      <property name="path[242]" value="D:\Work\vision_process\RealFullField\363.jpg"/>
+      <property name="path[174]" value="D:\Work\vision_process\RealFullField\295.jpg"/>
+      <property name="path[306]" value="D:\Work\vision_process\RealFullField\449.jpg"/>
+      <property name="path[56]" value="D:\Work\vision_process\RealFullField\83.jpg"/>
+      <property name="path[238]" value="D:\Work\vision_process\RealFullField\359.jpg"/>
+      <property name="path[20]" value="D:\Work\vision_process\RealFullField\23.jpg"/>
+      <property name="path[202]" value="D:\Work\vision_process\RealFullField\323.jpg"/>
+      <property name="path[134]" value="D:\Work\vision_process\RealFullField\249.jpg"/>
+      <property name="path[16]" value="D:\Work\vision_process\RealFullField\19.jpg"/>
+      <property name="path[385]" value="D:\Work\vision_process\RealFullField\538.jpg"/>
+      <property name="path[1]" value="D:\Work\vision_process\RealFullField\3.jpg"/>
+      <property name="path[281]" value="D:\Work\vision_process\RealFullField\424.jpg"/>
+      <property name="path[345]" value="D:\Work\vision_process\RealFullField\498.jpg"/>
+      <property name="path[95]" value="D:\Work\vision_process\RealFullField\210.jpg"/>
+      <property name="path[277]" value="D:\Work\vision_process\RealFullField\420.jpg"/>
+      <property name="path[241]" value="D:\Work\vision_process\RealFullField\362.jpg"/>
+      <property name="path[173]" value="D:\Work\vision_process\RealFullField\294.jpg"/>
+      <property name="path[305]" value="D:\Work\vision_process\RealFullField\448.jpg"/>
+      <property name="path[55]" value="D:\Work\vision_process\RealFullField\82.jpg"/>
+      <property name="path[237]" value="D:\Work\vision_process\RealFullField\358.jpg"/>
+      <property name="path[169]" value="D:\Work\vision_process\RealFullField\290.jpg"/>
+      <property name="path[201]" value="D:\Work\vision_process\RealFullField\322.jpg"/>
+      <property name="path[133]" value="D:\Work\vision_process\RealFullField\248.jpg"/>
+      <property name="path[15]" value="D:\Work\vision_process\RealFullField\18.jpg"/>
+      <property name="path[129]" value="D:\Work\vision_process\RealFullField\244.jpg"/>
+      <property name="path[384]" value="D:\Work\vision_process\RealFullField\537.jpg"/>
+      <property name="path[0]" value="D:\Work\vision_process\RealFullField\0.jpg"/>
+      <property name="path[280]" value="D:\Work\vision_process\RealFullField\423.jpg"/>
+      <property name="path[344]" value="D:\Work\vision_process\RealFullField\497.jpg"/>
+      <property name="path[94]" value="D:\Work\vision_process\RealFullField\209.jpg"/>
+      <property name="path[276]" value="D:\Work\vision_process\RealFullField\399.jpg"/>
+      <property name="path[240]" value="D:\Work\vision_process\RealFullField\361.jpg"/>
+      <property name="path[172]" value="D:\Work\vision_process\RealFullField\293.jpg"/>
+      <property name="path[304]" value="D:\Work\vision_process\RealFullField\447.jpg"/>
+      <property name="path[54]" value="D:\Work\vision_process\RealFullField\81.jpg"/>
+      <property name="path[236]" value="D:\Work\vision_process\RealFullField\357.jpg"/>
+      <property name="path[168]" value="D:\Work\vision_process\RealFullField\285.jpg"/>
+      <property name="path[200]" value="D:\Work\vision_process\RealFullField\321.jpg"/>
+      <property name="path[132]" value="D:\Work\vision_process\RealFullField\247.jpg"/>
+      <property name="path[14]" value="D:\Work\vision_process\RealFullField\17.jpg"/>
+      <property name="path[128]" value="D:\Work\vision_process\RealFullField\243.jpg"/>
+      <property name="path[383]" value="D:\Work\vision_process\RealFullField\536.jpg"/>
+      <property name="path[379]" value="D:\Work\vision_process\RealFullField\532.jpg"/>
+      <property name="path[343]" value="D:\Work\vision_process\RealFullField\496.jpg"/>
+      <property name="path[93]" value="D:\Work\vision_process\RealFullField\208.jpg"/>
+      <property name="path[275]" value="D:\Work\vision_process\RealFullField\398.jpg"/>
+      <property name="path[171]" value="D:\Work\vision_process\RealFullField\292.jpg"/>
+      <property name="path[339]" value="D:\Work\vision_process\RealFullField\492.jpg"/>
+      <property name="path[89]" value="D:\Work\vision_process\RealFullField\204.jpg"/>
+      <property name="path[303]" value="D:\Work\vision_process\RealFullField\446.jpg"/>
+      <property name="path[53]" value="D:\Work\vision_process\RealFullField\80.jpg"/>
+      <property name="path[235]" value="D:\Work\vision_process\RealFullField\356.jpg"/>
+      <property name="path[167]" value="D:\Work\vision_process\RealFullField\284.jpg"/>
+      <property name="path[131]" value="D:\Work\vision_process\RealFullField\246.jpg"/>
+      <property name="path[49]" value="D:\Work\vision_process\RealFullField\74.jpg"/>
+      <property name="path[13]" value="D:\Work\vision_process\RealFullField\16.jpg"/>
+      <property name="path[127]" value="D:\Work\vision_process\RealFullField\242.jpg"/>
+      <property name="path[382]" value="D:\Work\vision_process\RealFullField\535.jpg"/>
+      <property name="path[378]" value="D:\Work\vision_process\RealFullField\531.jpg"/>
+      <property name="path[342]" value="D:\Work\vision_process\RealFullField\495.jpg"/>
+      <property name="path[92]" value="D:\Work\vision_process\RealFullField\207.jpg"/>
+      <property name="path[274]" value="D:\Work\vision_process\RealFullField\397.jpg"/>
+      <property name="path[170]" value="D:\Work\vision_process\RealFullField\291.jpg"/>
+      <property name="path[338]" value="D:\Work\vision_process\RealFullField\491.jpg"/>
+      <property name="path[88]" value="D:\Work\vision_process\RealFullField\203.jpg"/>
+      <property name="path[302]" value="D:\Work\vision_process\RealFullField\445.jpg"/>
+      <property name="path[52]" value="D:\Work\vision_process\RealFullField\79.jpg"/>
+      <property name="path[234]" value="D:\Work\vision_process\RealFullField\355.jpg"/>
+      <property name="path[166]" value="D:\Work\vision_process\RealFullField\283.jpg"/>
+      <property name="path[130]" value="D:\Work\vision_process\RealFullField\245.jpg"/>
+      <property name="path[48]" value="D:\Work\vision_process\RealFullField\73.jpg"/>
+      <property name="path[12]" value="D:\Work\vision_process\RealFullField\15.jpg"/>
+      <property name="path[126]" value="D:\Work\vision_process\RealFullField\241.jpg"/>
+      <property name="path[381]" value="D:\Work\vision_process\RealFullField\534.jpg"/>
+      <property name="path[377]" value="D:\Work\vision_process\RealFullField\530.jpg"/>
+      <property name="path[341]" value="D:\Work\vision_process\RealFullField\494.jpg"/>
+      <property name="path[91]" value="D:\Work\vision_process\RealFullField\206.jpg"/>
+      <property name="path[273]" value="D:\Work\vision_process\RealFullField\396.jpg"/>
+      <property name="path[337]" value="D:\Work\vision_process\RealFullField\490.jpg"/>
+      <property name="path[87]" value="D:\Work\vision_process\RealFullField\202.jpg"/>
+      <property name="path[301]" value="D:\Work\vision_process\RealFullField\444.jpg"/>
+      <property name="path[269]" value="D:\Work\vision_process\RealFullField\392.jpg"/>
+      <property name="path[51]" value="D:\Work\vision_process\RealFullField\76.jpg"/>
+      <property name="path[233]" value="D:\Work\vision_process\RealFullField\354.jpg"/>
+      <property name="path[165]" value="D:\Work\vision_process\RealFullField\282.jpg"/>
+      <property name="path[47]" value="D:\Work\vision_process\RealFullField\72.jpg"/>
+      <property name="path[229]" value="D:\Work\vision_process\RealFullField\350.jpg"/>
+      <property name="path[11]" value="D:\Work\vision_process\RealFullField\14.jpg"/>
+      <property name="path[125]" value="D:\Work\vision_process\RealFullField\240.jpg"/>
+      <property name="path[380]" value="D:\Work\vision_process\RealFullField\533.jpg"/>
+      <property name="path[376]" value="D:\Work\vision_process\RealFullField\529.jpg"/>
+      <property name="path[340]" value="D:\Work\vision_process\RealFullField\493.jpg"/>
+      <property name="path[90]" value="D:\Work\vision_process\RealFullField\205.jpg"/>
+      <property name="path[272]" value="D:\Work\vision_process\RealFullField\395.jpg"/>
+      <property name="path[336]" value="D:\Work\vision_process\RealFullField\489.jpg"/>
+      <property name="path[86]" value="D:\Work\vision_process\RealFullField\201.jpg"/>
+      <property name="path[300]" value="D:\Work\vision_process\RealFullField\443.jpg"/>
+      <property name="path[268]" value="D:\Work\vision_process\RealFullField\391.jpg"/>
+      <property name="path[50]" value="D:\Work\vision_process\RealFullField\75.jpg"/>
+      <property name="path[232]" value="D:\Work\vision_process\RealFullField\353.jpg"/>
+      <property name="path[164]" value="D:\Work\vision_process\RealFullField\281.jpg"/>
+      <property name="path[46]" value="D:\Work\vision_process\RealFullField\71.jpg"/>
+      <property name="path[228]" value="D:\Work\vision_process\RealFullField\349.jpg"/>
+      <property name="path[10]" value="D:\Work\vision_process\RealFullField\13.jpg"/>
+      <property name="path[124]" value="D:\Work\vision_process\RealFullField\239.jpg"/>
+      <property name="path[375]" value="D:\Work\vision_process\RealFullField\528.jpg"/>
+      <property name="path[271]" value="D:\Work\vision_process\RealFullField\394.jpg"/>
+      <property name="path[335]" value="D:\Work\vision_process\RealFullField\488.jpg"/>
+      <property name="path[85]" value="D:\Work\vision_process\RealFullField\200.jpg"/>
+      <property name="path[267]" value="D:\Work\vision_process\RealFullField\390.jpg"/>
+      <property name="path[199]" value="D:\Work\vision_process\RealFullField\320.jpg"/>
+      <property name="path[231]" value="D:\Work\vision_process\RealFullField\352.jpg"/>
+      <property name="path[163]" value="D:\Work\vision_process\RealFullField\280.jpg"/>
+      <property name="path[45]" value="D:\Work\vision_process\RealFullField\70.jpg"/>
+      <property name="path[227]" value="D:\Work\vision_process\RealFullField\348.jpg"/>
+      <property name="path[159]" value="D:\Work\vision_process\RealFullField\276.jpg"/>
+      <property name="path[123]" value="D:\Work\vision_process\RealFullField\238.jpg"/>
+      <property name="index" value="118"/>
+      <property name="path[119]" value="D:\Work\vision_process\RealFullField\234.jpg"/>
+      <property name="path[374]" value="D:\Work\vision_process\RealFullField\527.jpg"/>
+      <property name="path[270]" value="D:\Work\vision_process\RealFullField\393.jpg"/>
+      <property name="path[334]" value="D:\Work\vision_process\RealFullField\487.jpg"/>
+      <property name="path[84]" value="D:\Work\vision_process\RealFullField\199.jpg"/>
+      <property name="path[266]" value="D:\Work\vision_process\RealFullField\389.jpg"/>
+      <property name="path[230]" value="D:\Work\vision_process\RealFullField\351.jpg"/>
+      <property name="path[198]" value="D:\Work\vision_process\RealFullField\319.jpg"/>
+      <property name="path[162]" value="D:\Work\vision_process\RealFullField\279.jpg"/>
+      <property name="path[44]" value="D:\Work\vision_process\RealFullField\69.jpg"/>
+      <property name="path[226]" value="D:\Work\vision_process\RealFullField\347.jpg"/>
+      <property name="path[158]" value="D:\Work\vision_process\RealFullField\275.jpg"/>
+      <property name="path[122]" value="D:\Work\vision_process\RealFullField\237.jpg"/>
+      <property name="path[118]" value="D:\Work\vision_process\RealFullField\233.jpg"/>
+      <property name="path[373]" value="D:\Work\vision_process\RealFullField\526.jpg"/>
+      <property name="path[369]" value="D:\Work\vision_process\RealFullField\522.jpg"/>
+      <property name="path[333]" value="D:\Work\vision_process\RealFullField\486.jpg"/>
+      <property name="path[83]" value="D:\Work\vision_process\RealFullField\198.jpg"/>
+      <property name="path[265]" value="D:\Work\vision_process\RealFullField\388.jpg"/>
+      <property name="path[197]" value="D:\Work\vision_process\RealFullField\318.jpg"/>
+      <property name="path[161]" value="D:\Work\vision_process\RealFullField\278.jpg"/>
+      <property name="path[329]" value="D:\Work\vision_process\RealFullField\482.jpg"/>
+      <property name="path[79]" value="D:\Work\vision_process\RealFullField\194.jpg"/>
+      <property name="path[43]" value="D:\Work\vision_process\RealFullField\68.jpg"/>
+      <property name="path[225]" value="D:\Work\vision_process\RealFullField\346.jpg"/>
+      <property name="path[157]" value="D:\Work\vision_process\RealFullField\274.jpg"/>
+      <property name="path[121]" value="D:\Work\vision_process\RealFullField\236.jpg"/>
+      <property name="path[39]" value="D:\Work\vision_process\RealFullField\64.jpg"/>
+      <property name="path[117]" value="D:\Work\vision_process\RealFullField\232.jpg"/>
+      <property name="path[372]" value="D:\Work\vision_process\RealFullField\525.jpg"/>
+      <property name="path[368]" value="D:\Work\vision_process\RealFullField\521.jpg"/>
+      <property name="path[332]" value="D:\Work\vision_process\RealFullField\485.jpg"/>
+      <property name="path[82]" value="D:\Work\vision_process\RealFullField\197.jpg"/>
+      <property name="path[264]" value="D:\Work\vision_process\RealFullField\387.jpg"/>
+      <property name="path[196]" value="D:\Work\vision_process\RealFullField\317.jpg"/>
+      <property name="path[160]" value="D:\Work\vision_process\RealFullField\277.jpg"/>
+      <property name="path[328]" value="D:\Work\vision_process\RealFullField\481.jpg"/>
+      <property name="path[78]" value="D:\Work\vision_process\RealFullField\193.jpg"/>
+      <property name="path[42]" value="D:\Work\vision_process\RealFullField\67.jpg"/>
+      <property name="path[224]" value="D:\Work\vision_process\RealFullField\345.jpg"/>
+      <property name="path[156]" value="D:\Work\vision_process\RealFullField\273.jpg"/>
+      <property name="path[120]" value="D:\Work\vision_process\RealFullField\235.jpg"/>
+      <property name="path[38]" value="D:\Work\vision_process\RealFullField\63.jpg"/>
+      <property name="path[116]" value="D:\Work\vision_process\RealFullField\231.jpg"/>
+      <property name="path[371]" value="D:\Work\vision_process\RealFullField\524.jpg"/>
+      <property name="path[367]" value="D:\Work\vision_process\RealFullField\520.jpg"/>
+      <property name="path[331]" value="D:\Work\vision_process\RealFullField\484.jpg"/>
+      <property name="path[299]" value="D:\Work\vision_process\RealFullField\442.jpg"/>
+      <property name="path[81]" value="D:\Work\vision_process\RealFullField\196.jpg"/>
+      <property name="path[263]" value="D:\Work\vision_process\RealFullField\386.jpg"/>
+      <property name="path[195]" value="D:\Work\vision_process\RealFullField\316.jpg"/>
+      <property name="path[327]" value="D:\Work\vision_process\RealFullField\480.jpg"/>
+      <property name="path[77]" value="D:\Work\vision_process\RealFullField\192.jpg"/>
+      <property name="path[259]" value="D:\Work\vision_process\RealFullField\380.jpg"/>
+      <property name="path[41]" value="D:\Work\vision_process\RealFullField\66.jpg"/>
+      <property name="path[223]" value="D:\Work\vision_process\RealFullField\344.jpg"/>
+      <property name="path[155]" value="D:\Work\vision_process\RealFullField\272.jpg"/>
+      <property name="path[37]" value="D:\Work\vision_process\RealFullField\62.jpg"/>
+      <property name="path[219]" value="D:\Work\vision_process\RealFullField\340.jpg"/>
+      <property name="path[115]" value="D:\Work\vision_process\RealFullField\230.jpg"/>
+      <property name="path[370]" value="D:\Work\vision_process\RealFullField\523.jpg"/>
+      <property name="path[366]" value="D:\Work\vision_process\RealFullField\519.jpg"/>
+      <property name="path[330]" value="D:\Work\vision_process\RealFullField\483.jpg"/>
+      <property name="path[298]" value="D:\Work\vision_process\RealFullField\441.jpg"/>
+      <property name="path[80]" value="D:\Work\vision_process\RealFullField\195.jpg"/>
+      <property name="path[262]" value="D:\Work\vision_process\RealFullField\385.jpg"/>
+      <property name="path[194]" value="D:\Work\vision_process\RealFullField\315.jpg"/>
+      <property name="path[326]" value="D:\Work\vision_process\RealFullField\479.jpg"/>
+      <property name="path[76]" value="D:\Work\vision_process\RealFullField\191.jpg"/>
+      <property name="path[258]" value="D:\Work\vision_process\RealFullField\379.jpg"/>
+      <property name="path[40]" value="D:\Work\vision_process\RealFullField\65.jpg"/>
+      <property name="path[222]" value="D:\Work\vision_process\RealFullField\343.jpg"/>
+      <property name="path[154]" value="D:\Work\vision_process\RealFullField\271.jpg"/>
+      <property name="path[36]" value="D:\Work\vision_process\RealFullField\61.jpg"/>
+      <property name="path[218]" value="D:\Work\vision_process\RealFullField\339.jpg"/>
+      <property name="path[114]" value="D:\Work\vision_process\RealFullField\229.jpg"/>
+      <property name="path[365]" value="D:\Work\vision_process\RealFullField\518.jpg"/>
+      <property name="path[297]" value="D:\Work\vision_process\RealFullField\440.jpg"/>
+      <property name="path[261]" value="D:\Work\vision_process\RealFullField\384.jpg"/>
+      <property name="path[193]" value="D:\Work\vision_process\RealFullField\314.jpg"/>
+      <property name="path[325]" value="D:\Work\vision_process\RealFullField\478.jpg"/>
+      <property name="path[75]" value="D:\Work\vision_process\RealFullField\190.jpg"/>
+      <property name="path[257]" value="D:\Work\vision_process\RealFullField\378.jpg"/>
+      <property name="path[189]" value="D:\Work\vision_process\RealFullField\310.jpg"/>
+      <property name="path[221]" value="D:\Work\vision_process\RealFullField\342.jpg"/>
+      <property name="path[153]" value="D:\Work\vision_process\RealFullField\270.jpg"/>
+      <property name="path[35]" value="D:\Work\vision_process\RealFullField\60.jpg"/>
+      <property name="path[217]" value="D:\Work\vision_process\RealFullField\338.jpg"/>
+      <property name="path[149]" value="D:\Work\vision_process\RealFullField\266.jpg"/>
+      <property name="path[113]" value="D:\Work\vision_process\RealFullField\228.jpg"/>
+      <property name="path[109]" value="D:\Work\vision_process\RealFullField\224.jpg"/>
+      <property name="path[364]" value="D:\Work\vision_process\RealFullField\517.jpg"/>
+      <property name="path[296]" value="D:\Work\vision_process\RealFullField\439.jpg"/>
+      <property name="path[260]" value="D:\Work\vision_process\RealFullField\381.jpg"/>
+      <property name="path[192]" value="D:\Work\vision_process\RealFullField\313.jpg"/>
+      <property name="path[324]" value="D:\Work\vision_process\RealFullField\477.jpg"/>
+      <property name="path[74]" value="D:\Work\vision_process\RealFullField\189.jpg"/>
+      <property name="path[256]" value="D:\Work\vision_process\RealFullField\377.jpg"/>
+      <property name="path[188]" value="D:\Work\vision_process\RealFullField\309.jpg"/>
+      <property name="path[220]" value="D:\Work\vision_process\RealFullField\341.jpg"/>
+      <property name="path[152]" value="D:\Work\vision_process\RealFullField\269.jpg"/>
+      <property name="path[34]" value="D:\Work\vision_process\RealFullField\59.jpg"/>
+      <property name="path[216]" value="D:\Work\vision_process\RealFullField\337.jpg"/>
+      <property name="path[148]" value="D:\Work\vision_process\RealFullField\265.jpg"/>
+      <property name="path[112]" value="D:\Work\vision_process\RealFullField\227.jpg"/>
+    </grip:MultiImageFile>
+    <grip:MultiImageFile>
+      <property name="path[13]" value="D:\Work\vision_process\RealFullField\533.jpg"/>
+      <property name="path[9]" value="D:\Work\vision_process\RealFullField\529.jpg"/>
+      <property name="path[10]" value="D:\Work\vision_process\RealFullField\530.jpg"/>
+      <property name="path[6]" value="D:\Work\vision_process\RealFullField\526.jpg"/>
+      <property name="path[3]" value="D:\Work\vision_process\RealFullField\523.jpg"/>
+      <property name="path[0]" value="D:\Work\vision_process\RealFullField\520.jpg"/>
+      <property name="path[12]" value="D:\Work\vision_process\RealFullField\532.jpg"/>
+      <property name="path[8]" value="D:\Work\vision_process\RealFullField\528.jpg"/>
+      <property name="index" value="0"/>
+      <property name="numImages" value="14"/>
+      <property name="path[5]" value="D:\Work\vision_process\RealFullField\525.jpg"/>
+      <property name="path[2]" value="D:\Work\vision_process\RealFullField\522.jpg"/>
+      <property name="path[11]" value="D:\Work\vision_process\RealFullField\531.jpg"/>
+      <property name="path[7]" value="D:\Work\vision_process\RealFullField\527.jpg"/>
+      <property name="path[4]" value="D:\Work\vision_process\RealFullField\524.jpg"/>
+      <property name="path[1]" value="D:\Work\vision_process\RealFullField\521.jpg"/>
+    </grip:MultiImageFile>
+  </sources>
+  <steps>
+    <grip:Step name="HSL Threshold">
+      <grip:Input step="0" socket="0"/>
+      <grip:Input step="0" socket="1">
+        <value>
+          <double>0.0</double>
+          <double>180.0</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="0" socket="2">
+        <value>
+          <double>0.0</double>
+          <double>255.0</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="0" socket="3">
+        <value>
+          <double>55.03597122302158</double>
+          <double>255.0</double>
+        </value>
+      </grip:Input>
+      <grip:Output step="0" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="Find Contours">
+      <grip:Input step="1" socket="0"/>
+      <grip:Input step="1" socket="1">
+        <value>false</value>
+      </grip:Input>
+      <grip:Output step="1" socket="0" previewed="true"/>
+    </grip:Step>
+    <grip:Step name="Filter Contours">
+      <grip:Input step="2" socket="0"/>
+      <grip:Input step="2" socket="1">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="2" socket="2">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="2" socket="3">
+        <value>10.0</value>
+      </grip:Input>
+      <grip:Input step="2" socket="4">
+        <value>10000.0</value>
+      </grip:Input>
+      <grip:Input step="2" socket="5">
+        <value>10.0</value>
+      </grip:Input>
+      <grip:Input step="2" socket="6">
+        <value>10000.0</value>
+      </grip:Input>
+      <grip:Input step="2" socket="7">
+        <value>
+          <double>0.0</double>
+          <double>60.437710437710436</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="2" socket="8">
+        <value>0</value>
+      </grip:Input>
+      <grip:Input step="2" socket="9">
+        <value>1000000</value>
+      </grip:Input>
+      <grip:Input step="2" socket="10">
+        <value>0.5</value>
+      </grip:Input>
+      <grip:Input step="2" socket="11">
+        <value>3.0</value>
+      </grip:Input>
+      <grip:Output step="2" socket="0" previewed="true"/>
+    </grip:Step>
+  </steps>
+  <connections>
+    <grip:Connection>
+      <grip:Output step="0" socket="0" previewed="false"/>
+      <grip:Input step="1" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="1" socket="0" previewed="true"/>
+      <grip:Input step="2" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output source="1" socket="0" previewed="false"/>
+      <grip:Input step="0" socket="0"/>
+    </grip:Connection>
+  </connections>
+  <settings>
+    <teamNumber>0</teamNumber>
+    <publishAddress>roborio-0-frc.local</publishAddress>
+    <deployAddress>roborio-0-frc.local</deployAddress>
+    <deployDir>/home/lvuser</deployDir>
+    <deployUser>lvuser</deployUser>
+    <deployJavaHome>/usr/local/frc/JRE/</deployJavaHome>
+    <deployJvmOptions>-Xmx50m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError</deployJvmOptions>
+  </settings>
+</grip:Pipeline>
