@@ -7,6 +7,7 @@ from networktables import NetworkTable
 import time
 import config
 import subprocess
+import math
 
 from utils import camserver, const
 from detect import detect
@@ -32,7 +33,7 @@ def do_capture(self):
                 ntable.putNumber("target_angle", const.VISION_COMMAND_ENABLED)
                 ntable.putNumber("robotdrive_status", const.VISION_COMMAND_ENABLED)
                 ntable.putNumber("target_count_number", cnt)
-                ntable.putNumber("target_angle_number", data["cX"] + data["cY"])
+                ntable.putNumber("target_angle_number", math.sqrt(math.pow(data["cX"], 2) + math.pow(data["cY"], 2)))
 
                 for k, v in push_data:
                     ntable.putNumber(k, v)
@@ -51,7 +52,7 @@ def do_capture(self):
         return None
 
 def get_device():
-    return "-d /dev/video" + config.camera["id"]
+    return "-d /dev/video%d" % (config.camera["id"])
 
 def onValueChanged(table, key, value, isNew):
     if table is "vision" and key is "manual_exposure":
