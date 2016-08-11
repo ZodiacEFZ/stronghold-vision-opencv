@@ -3,14 +3,8 @@ import time
 import cv2
 import numpy as np
 
-config_prev = {
-    "hls": ([58,112,48], [105,255,152]),
-    "bgr": ([96,78,0], [216,173,101])
-}
-
 config = {
-    "hls": ([0,55,0], [180,255,255]),
-    "bgr": ([0,0,0], [0,0,0])
+    "hls": ([31,67,41], [89,255,255])
 }
 
 def get_hls_image(img):
@@ -39,7 +33,7 @@ def filter_contours(contours, hierarchy):
         x, y, w, h = cv2.boundingRect(cnt)
         aspect_ratio = float(w) / h
 
-        if w >= 10 and w <= 1000 and h >= 10 and h <= 300 and area >= 100 and hier[3] == -1 and solidity <= 0.60 \
+        if w >= 20 and w <= 1000 and h >= 20 and h <= 300 and area >= 100 and hier[3] == -1 and solidity <= 0.79 \
             and 0.3 <= aspect_ratio and aspect_ratio <= 5:
             yield { "contour": cnt, "cx": cx, "cy": cy, "area": area, "solidity": solidity, "aspect_ratio": aspect_ratio }
 
