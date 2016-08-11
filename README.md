@@ -39,6 +39,7 @@ server = {
 camera = {
     "width": 640,
     "height": 480,
+    "fps": 30,
     "r_width": 322,
     "r_height": 245,
     "cX": 320,
