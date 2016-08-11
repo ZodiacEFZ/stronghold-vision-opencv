@@ -56,7 +56,6 @@ def get_device():
 
 def onValueChanged(table, key, value, isNew):
     if key == "manual_exposure":
-        print(value)
         if value == 0.0:
             subprocess.call("v4l2-ctl -c exposure_auto=1", shell=True)
             subprocess.call("v4l2-ctl -c exposure_absolute=5", shell=True)
