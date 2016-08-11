@@ -32,10 +32,10 @@ def do_capture(self):
                 ntable.putNumber("target_angle", const.VISION_COMMAND_ENABLED)
                 ntable.putNumber("robotdrive_status", const.VISION_COMMAND_ENABLED)
                 ntable.putNumber("target_count_number", cnt)
-                ntable.putNumber("target_angle_number", data["cX"] + data["cY"])
-
-                for k, v in push_data:
-                    ntable.putNumber(k, v)
+                
+                ntable.putNumber("target_angle_number", math.sqrt(math.pow(__data["cX"], 2) + math.pow(__data["cY"], 2)))
+                ntable.putNumber("cX", push_data["cX"])
+                ntable.putNumber("cY", push_data["cY"])
 
             if cnt == 0:
                 ntable.putNumber("target_count", const.VISION_COMMAND_DISABLED)
@@ -51,15 +51,16 @@ def do_capture(self):
         return None
 
 def get_device():
-    return "-d /dev/video" + config.camera["id"]
+    # return "-d /dev/video%d" % (config.camera["id"])
+    return ""
 
 def onValueChanged(table, key, value, isNew):
-    if table is "vision" and key is "manual_exposure":
-        if value == 0:
-            subprocess.call("v4l2-ctl -c exposure_auto=1 " + get_device(), shell=True)
-            subprocess.call("v4l2-ctl -c exposure_absolute=5 " + get_device(), shell=True)
-        elif value == 1:
-            subprocess.call("v4l2-ctl -c exposure_auto=3 " + get_device(), shell=True)
+    if key == "manual_exposure":
+        if value == 0.0:
+            subprocess.call("v4l2-ctl -c exposure_auto=1", shell=True)
+            subprocess.call("v4l2-ctl -c exposure_absolute=5", shell=True)
+        elif value == 2.0:
+            subprocess.call("v4l2-ctl -c exposure_auto=3", shell=True)
 
 
 def init_ntable():
@@ -74,7 +75,7 @@ def init_ntable():
     ntable.addTableListener(onValueChanged)
 
 def init_modules():
-    subprocess.call("v4l2-ctl -c exposure_auto=3 " + get_device(), shell=True)
+    subprocess.call("v4l2-ctl -c exposure_auto=3", shell=True)
     ntable.putNumber("auto_enabled", const.VISION_COMMAND_DISABLED);
     ntable.putNumber("manual_exposure", const.VISION_COMMAND_DISABLED);
 
@@ -86,6 +87,7 @@ def main():
     capture = cv2.VideoCapture(config.camera["id"])
     capture.set(cv2.CAP_PROP_FRAME_WIDTH, config.camera["width"])
     capture.set(cv2.CAP_PROP_FRAME_HEIGHT, config.camera["height"])
+    capture.set(cv2.CAP_PROP_FPS, config.camera["fps"])
 
     try:
         camserver.serve(config.server, do_capture)
