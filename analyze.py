@@ -33,8 +33,8 @@ def main():
                 # img = cv2.resize(img, (1280, 720))
 
                 img, cnt, __data = detect.do_detect(img)
-                
-                cv2.imwrite("TestData/Result/%s" % path, img)
+
+                # cv2.imwrite("TestData/Result/%s" % path, img)
 
                 print("%d/%d" % (__cnt + 1, len(filenames)))
 
