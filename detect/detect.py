@@ -17,6 +17,8 @@ def get_hls_image(img):
     )
 
 def filter_contours(contours, hierarchy):
+    if len(contours) <= 0:
+        return None
     for cnt, hier in zip(contours, hierarchy[0]):
         M = cv2.moments(cnt)
 
