@@ -1,10 +1,23 @@
 # stronghold-vision-opencv
 
-Vision process with OpenCV. By Team 9036.
+Vision process with OpenCV by Zodiac.
 
 ## License
 
 MIT
+
+## Install
+
+`Python3`, `numpy`, `cv2`, `matplotlib` are required to run this script.
+To communicate with roboRIO, you also need `pynetworktables`.
+
+Install OpenCV 3.1 for Python3, and then install other requirements:
+
+```
+git clone https://github.com/ZodiacEFZ/stronghold-vision-opencv && cd stronghold-vision-opencv
+
+pip install -r requirements.txt
+```
 
 ## Analyze
 
@@ -50,6 +63,10 @@ camera = {
 
 ## How to use
 
-After running `./video.py`, vision daemon will start an http server at specified port.
-You should use a [proxy](https://github.com/SkyZH/stronghold-vision-mjpeg-proxy) and
-[webdashboard](https://github.com/SkyZH/stronghold-vision-webdashboard) to see vision data.
+After running `./video.py`, vision daemon will start an http server serving
+mjpeg stream at specified port. Because this server only support one connection,
+You should use a mjpeg [proxy](https://github.com/ZodiacEFZ/stronghold-vision-mjpeg-proxy)
+to transfer video data.
+
+If you want to view vision settings, deploy a
+[WebDashboard](https://github.com/ZodiacEFZ/stronghold-vision-webdashboard)
