@@ -31,7 +31,8 @@ will be put in `./TestData/Result` with contours drawn on.
 
 Run `./video.py`, then OpenCV will read data from the default camera and analyze data.
 With NetworkTables you can enable/disable vision process, manual exposure. And
-this vision daemon will report target data to NetworkTables.
+this vision daemon will report target data to NetworkTables. Also an mjpeg server will
+be set up to transfer **processed** image stream.
 
 ## Structure
 
