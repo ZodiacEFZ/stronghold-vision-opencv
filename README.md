@@ -69,4 +69,4 @@ You should use a mjpeg [proxy](https://github.com/ZodiacEFZ/stronghold-vision-mj
 to transfer video data.
 
 If you want to view vision settings, deploy a
-[WebDashboard](https://github.com/ZodiacEFZ/stronghold-vision-webdashboard)
+[WebDashboard](https://github.com/ZodiacEFZ/stronghold-vision-webdashboard).
