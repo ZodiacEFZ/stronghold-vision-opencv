@@ -6,6 +6,9 @@ Vision process with OpenCV by Zodiac.
 
 MIT
 
+声明：我们允许组织以及个人将此项目用于商业行为，没有任何限制。
+但**请带上本项目的许可证 `MIT`**，并**附上原作者以及项目的地址**。我们保留对该项目的最终解释权。
+
 ## Install
 
 `Python3`, `numpy`, `cv2`, `matplotlib` are required to run this script.
